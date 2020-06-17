@@ -19,7 +19,7 @@ ip:192.168.2.3
 
 Configure ssh password less authentication from master to all node.
 
-Add following line to all node.
+Add following line to all node /etc/hosts.
 
 192.168.2.1 kubernetes-master.example.com kubernetes-master
 
