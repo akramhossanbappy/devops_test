@@ -16,5 +16,8 @@ services:
 
 ```
 
- 
+
+Numbers are specified as arguments in the form service=num. For example:
+```sh
 $ docker-compose up -d --scale web=3
+```
