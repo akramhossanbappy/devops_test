@@ -59,7 +59,7 @@ How to use this (Setup Instructions):
 
 File roles:
 
-ansible.cfg - Ansible configuration file created locally.
+ansible.cfg - Ansible configuration file created locally.   
 
 hosts - Ansible Inventory File
 
