@@ -1,0 +1,9 @@
+version: "3"
+services:
+
+  web:
+    image: hello-world
+    ports:
+      - "8085:80"
+    restart: always
+
