@@ -1,5 +1,5 @@
 #  Ansible script to boot up a Kubernetes cluster
-Prerequsite:
+## Prerequsite:
 Install centos and configure 3 VM & Intall ansible at master node.
 Openssh-server must be installed and yum update in all server.
 
@@ -24,7 +24,7 @@ Add following line to all node.
 172.20.10.5 kubernetes-worker2.example.com kubernetes-worker2
 
 
-How to use this (Setup Instructions):
+## How to use this (Setup Instructions):
 
 1. Internet connection must be enabled in all nodes.
 2. Clone this repository into your master node.
@@ -51,7 +51,7 @@ How to use this (Setup Instructions):
 
       kubectl get nodes
 
-# File roles:
+## File roles:
 
 ansible.cfg - Ansible configuration file created locally.
 
