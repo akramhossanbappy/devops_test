@@ -4,10 +4,12 @@ Install centos and configure 3 VM & Intall ansible at master node.
 Openssh-server must be installed and yum update in all server.
 
 ansible control server
+
 fqdn:kubernetes-master.example.com  kubernetes-master
 ip:192.168.2.1 
 
 nodes Conf:
+
 fqdn:kubernetes-worker1.example.com kubernetes-worker1
 ip:192.168.2.2
 
@@ -17,10 +19,12 @@ ip:192.168.2.3
 
 Configure ssh password less authentication from master to all node.
 
-Add following line to all node.
+Add following line to all node /etc/hosts.
 
 192.168.2.1 kubernetes-master.example.com kubernetes-master
+
 192.168.2.2 kubernetes-worker1.example.com kubernetes-worker1
+
 192.168.2.3 kubernetes-worker2.example.com kubernetes-worker2
 
 
@@ -37,6 +41,7 @@ How to use this (Setup Instructions):
    cd Ans001/centos
 
 3. There is a file "hosts" available in "centos" directory, add your all node ip and fqdn. 
+
 4. Provide your server details in "env_variables" available in "centos" directory.
 
    
@@ -65,6 +70,6 @@ settingup_kubernetes_cluster.yml - Ansible Playbook to check prerequisites, sett
 configure_worker_nodes.yml - Ansible Playbook to join worker nodes with the master node.
 
 
-playbooks - Its a directory holds all playbooks.
+playbooks - Its a directory holds all playbooks.    
 
 
