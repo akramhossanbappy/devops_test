@@ -3,6 +3,8 @@ Prerequsite:
 Install centos and configure 3 VM & Intall ansible at master node.
 Openssh-server must be installed and yum update in all server.
 
+
+
 ansible control server
 
 fqdn:kubernetes-master.example.com  kubernetes-master
@@ -18,6 +20,8 @@ ip:192.168.2.3
 
 
 Configure ssh password less authentication from master to all node.
+
+
 
 Add following line to all node /etc/hosts.
 
@@ -56,6 +60,8 @@ How to use this (Setup Instructions):
 7. Verify the configuration from master node.
 
       kubectl get nodes
+	  
+	  
 
 File roles:
 
