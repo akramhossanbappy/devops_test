@@ -1,4 +1,4 @@
-# Run 3 replicas using Docker compose file
+# Run 3 replicas using Docker compose file   (Not Complete)
 
 First of all create a compose file.
 
