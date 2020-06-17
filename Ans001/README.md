@@ -4,10 +4,12 @@ Install centos and configure 3 VM & Intall ansible at master node.
 Openssh-server must be installed and yum update in all server.
 
 ansible control server
+
 fqdn:kubernetes-master.example.com  kubernetes-master
 ip:192.168.2.1 
 
 nodes Conf:
+
 fqdn:kubernetes-worker1.example.com kubernetes-worker1
 ip:192.168.2.2
 
