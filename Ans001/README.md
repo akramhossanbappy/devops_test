@@ -51,7 +51,7 @@ How to use this (Setup Instructions):
 
       kubectl get nodes
 
-#File roles:
+# File roles:
 
 ansible.cfg - Ansible configuration file created locally.
 
