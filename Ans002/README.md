@@ -1,4 +1,4 @@
-# devops_test
+# Run 3 replicas using Docker compose file
 
 First of all create a compose file.
 
@@ -17,7 +17,9 @@ services:
 ```
 
 
+
 Numbers are specified as arguments in the form service=num. For example:
+
 ```sh
 $ docker-compose up -d --scale web=3
 ```
