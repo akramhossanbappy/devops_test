@@ -3,7 +3,7 @@
 First of all create a compose file.
 
 Such as docker-compose.yml 
-
+```sh
 version: "3"
 services:
 
@@ -14,7 +14,7 @@ services:
     restart: always
 
 
-
+```
 
  
 $ docker-compose up -d --scale web=3
