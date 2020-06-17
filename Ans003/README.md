@@ -3,17 +3,15 @@
 
 ```sh
 pipeline {
-    agent none
+    agent {
+        docker { image 'hello-world' }
+    }
     stages {
         stage('Test hello-world') {
-            agent {
-                docker { image 'hello-world' }
-            }
             steps {
-                sh 'echo hello-world > echofile.txt'
+                echo 'testing  hello-world image'
             }
         }
-
     }
 }
 
