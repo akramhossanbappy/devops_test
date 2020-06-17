@@ -37,7 +37,6 @@ How to use this (Setup Instructions):
    cd Ans001/centos
 
 3. There is a file "hosts" available in "centos" directory, add your all node ip and fqdn. 
-
 4. Provide your server details in "env_variables" available in "centos" directory.
 
    
