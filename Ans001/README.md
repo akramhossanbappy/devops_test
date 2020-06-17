@@ -20,7 +20,9 @@ Configure ssh password less authentication from master to all node.
 Add following line to all node.
 
 192.168.2.1 kubernetes-master.example.com kubernetes-master
+
 192.168.2.2 kubernetes-worker1.example.com kubernetes-worker1
+
 192.168.2.3 kubernetes-worker2.example.com kubernetes-worker2
 
 
